@@ -1,0 +1,80 @@
+.error-modal {
+  margin: auto;
+  position: absolute;
+  padding: 25%;
+  /* background-color: rgb(227, 121, 121); */
+  /* background-color: rgba(141, 53, 53, 0.419); */
+  z-index: 30;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  align-self: center;
+}
+
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 10;
+  background: rgb(145 100 100 / 60%);
+  filter: blur(3px);
+}
+
+.modal-container {
+  margin-top: auto;
+  padding: 1rem 1rem;
+  /* background-color: rgb(227, 121, 121); */
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 2px 8px rgb(0 0 0 / 26%);
+  max-width: 40rem;
+  max-height: 40vh;
+  height: 15rem !important;
+  z-index: 30;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  align-self: center;
+}
+
+.header {
+  font-weight: bold;
+  /* font-size: large; */
+  align-self: center;
+  text-align: center;
+  color: #fff;
+  background-color: rgb(197, 31, 31);
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.message {
+  font-size: large;
+  /* color: #fff; */
+  align-self: center;
+  text-align: left;
+  display: flex;
+  justify-content: space-around;
+  align-self: center;
+}
+
+.footer {
+  /* margin: 1rem 1rem; */
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+
+.footer button {
+  color: white;
+  background-color: rgb(197, 31, 31);
+  height: 3rem;
+  font-size: large;
+  width: 7rem;
+}
+
+.footer button:hover {
+  background-color: rgba(99, 21, 21, 0.826);
+}

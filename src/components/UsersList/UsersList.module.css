@@ -1,0 +1,12 @@
+#users {
+    width: 35rem;
+    max-width: 90%;
+    min-height: 0px;
+    height: auto;
+    margin: 3rem auto;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 2rem;
+    background-color: #fff;
+    list-style: none;
+  }
